@@ -1,0 +1,4 @@
+github "tid-kijyun/Kanna" ~> 1.1.0
+github "onevcat/Kingfisher" ~> 2.4
+github "Alamofire/Alamofire" ~> 3.4
+github "stephencelis/SQLite.swift" ~> 0.10.1
