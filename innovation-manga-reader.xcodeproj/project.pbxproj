@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71CECD11D7471DE002790B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71CECD01D7471DE002790B9 /* AppDelegate.swift */; };
+		B71CECD31D7471DE002790B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71CECD21D7471DE002790B9 /* ViewController.swift */; };
+		B71CECD61D7471DE002790B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71CECD41D7471DE002790B9 /* Main.storyboard */; };
+		B71CECD91D7471DE002790B9 /* innovation_manga_reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B71CECD71D7471DE002790B9 /* innovation_manga_reader.xcdatamodeld */; };
+		B71CECDB1D7471DE002790B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71CECDA1D7471DE002790B9 /* Assets.xcassets */; };
+		B71CECDE1D7471DE002790B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71CECDC1D7471DE002790B9 /* LaunchScreen.storyboard */; };
+		B71CECEB1D7477C3002790B9 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71CECEA1D7477C3002790B9 /* Kanna.framework */; };
+		B71CECF01D7480B5002790B9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71CECEE1D7480B5002790B9 /* Alamofire.framework */; };
+		B71CECF11D7480B5002790B9 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71CECEF1D7480B5002790B9 /* Kingfisher.framework */; };
+		B71CECF51D74C918002790B9 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71CECF41D74C918002790B9 /* SQLite.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B71CECCD1D7471DE002790B9 /* innovation-manga-reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "innovation-manga-reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71CECD01D7471DE002790B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B71CECD21D7471DE002790B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B71CECD51D7471DE002790B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B71CECD81D7471DE002790B9 /* innovation_manga_reader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = innovation_manga_reader.xcdatamodel; sourceTree = "<group>"; };
+		B71CECDA1D7471DE002790B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B71CECDD1D7471DE002790B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B71CECDF1D7471DE002790B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71CECEA1D7477C3002790B9 /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kanna.framework; path = Carthage/Build/iOS/Kanna.framework; sourceTree = "<group>"; };
+		B71CECEE1D7480B5002790B9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B71CECEF1D7480B5002790B9 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		B71CECF41D74C918002790B9 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B71CECCA1D7471DE002790B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71CECF51D74C918002790B9 /* SQLite.framework in Frameworks */,
+				B71CECF01D7480B5002790B9 /* Alamofire.framework in Frameworks */,
+				B71CECF11D7480B5002790B9 /* Kingfisher.framework in Frameworks */,
+				B71CECEB1D7477C3002790B9 /* Kanna.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71CECC41D7471DE002790B9 = {
+			isa = PBXGroup;
+			children = (
+				B71CECF41D74C918002790B9 /* SQLite.framework */,
+				B71CECEE1D7480B5002790B9 /* Alamofire.framework */,
+				B71CECEF1D7480B5002790B9 /* Kingfisher.framework */,
+				B71CECEA1D7477C3002790B9 /* Kanna.framework */,
+				B71CECCF1D7471DE002790B9 /* innovation-manga-reader */,
+				B71CECCE1D7471DE002790B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B71CECCE1D7471DE002790B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71CECCD1D7471DE002790B9 /* innovation-manga-reader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B71CECCF1D7471DE002790B9 /* innovation-manga-reader */ = {
+			isa = PBXGroup;
+			children = (
+				B71CECD01D7471DE002790B9 /* AppDelegate.swift */,
+				B71CECD21D7471DE002790B9 /* ViewController.swift */,
+				B71CECD41D7471DE002790B9 /* Main.storyboard */,
+				B71CECDA1D7471DE002790B9 /* Assets.xcassets */,
+				B71CECDC1D7471DE002790B9 /* LaunchScreen.storyboard */,
+				B71CECDF1D7471DE002790B9 /* Info.plist */,
+				B71CECD71D7471DE002790B9 /* innovation_manga_reader.xcdatamodeld */,
+			);
+			path = "innovation-manga-reader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B71CECCC1D7471DE002790B9 /* innovation-manga-reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71CECE21D7471DE002790B9 /* Build configuration list for PBXNativeTarget "innovation-manga-reader" */;
+			buildPhases = (
+				B71CECC91D7471DE002790B9 /* Sources */,
+				B71CECCA1D7471DE002790B9 /* Frameworks */,
+				B71CECCB1D7471DE002790B9 /* Resources */,
+				B71CECE91D747481002790B9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "innovation-manga-reader";
+			productName = "innovation-manga-reader";
+			productReference = B71CECCD1D7471DE002790B9 /* innovation-manga-reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B71CECC51D7471DE002790B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lucas Le";
+				TargetAttributes = {
+					B71CECCC1D7471DE002790B9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4BUJLC36Y8;
+					};
+				};
+			};
+			buildConfigurationList = B71CECC81D7471DE002790B9 /* Build configuration list for PBXProject "innovation-manga-reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B71CECC41D7471DE002790B9;
+			productRefGroup = B71CECCE1D7471DE002790B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B71CECCC1D7471DE002790B9 /* innovation-manga-reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B71CECCB1D7471DE002790B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71CECDE1D7471DE002790B9 /* LaunchScreen.storyboard in Resources */,
+				B71CECDB1D7471DE002790B9 /* Assets.xcassets in Resources */,
+				B71CECD61D7471DE002790B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B71CECE91D747481002790B9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Kanna.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Sqlite.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B71CECC91D7471DE002790B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71CECD31D7471DE002790B9 /* ViewController.swift in Sources */,
+				B71CECD91D7471DE002790B9 /* innovation_manga_reader.xcdatamodeld in Sources */,
+				B71CECD11D7471DE002790B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B71CECD41D7471DE002790B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71CECD51D7471DE002790B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B71CECDC1D7471DE002790B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B71CECDD1D7471DE002790B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B71CECE01D7471DE002790B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B71CECE11D7471DE002790B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B71CECE31D7471DE002790B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "innovation-manga-reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.lehuy.ios.innovation-manga-reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B71CECE41D7471DE002790B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "innovation-manga-reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.lehuy.ios.innovation-manga-reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B71CECC81D7471DE002790B9 /* Build configuration list for PBXProject "innovation-manga-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71CECE01D7471DE002790B9 /* Debug */,
+				B71CECE11D7471DE002790B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71CECE21D7471DE002790B9 /* Build configuration list for PBXNativeTarget "innovation-manga-reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71CECE31D7471DE002790B9 /* Debug */,
+				B71CECE41D7471DE002790B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B71CECD71D7471DE002790B9 /* innovation_manga_reader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B71CECD81D7471DE002790B9 /* innovation_manga_reader.xcdatamodel */,
+			);
+			currentVersion = B71CECD81D7471DE002790B9 /* innovation_manga_reader.xcdatamodel */;
+			path = innovation_manga_reader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B71CECC51D7471DE002790B9 /* Project object */;
+}

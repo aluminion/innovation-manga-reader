@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="innovation_manga_reader" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5O2-7D-2SC">
+                                <rect key="frame" x="0.0" y="-4" width="600" height="604"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="E4N-pm-LfP"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="FQz-no-dob"/>
+                            <constraint firstAttribute="trailing" secondItem="5O2-7D-2SC" secondAttribute="trailing" id="FbK-7P-6ti"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GJB-1n-WhH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5O2-7D-2SC" secondAttribute="bottom" id="NII-uS-wJa"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="NcI-r7-UXy"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="X2U-M2-Bat"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="X4L-dM-ROG"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="X88-G6-ckA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5O2-7D-2SC" secondAttribute="trailing" constant="-20" id="Xin-XA-AgQ"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gXk-Tr-C12"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="h0M-6m-Qwr"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="hGd-S6-k8r"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="l3S-f7-XB0"/>
+                            <constraint firstItem="5O2-7D-2SC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="tC3-lr-YgY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="E4N-pm-LfP"/>
+                                <exclude reference="FbK-7P-6ti"/>
+                                <exclude reference="X2U-M2-Bat"/>
+                                <exclude reference="X4L-dM-ROG"/>
+                                <exclude reference="X88-G6-ckA"/>
+                                <exclude reference="Xin-XA-AgQ"/>
+                                <exclude reference="gXk-Tr-C12"/>
+                                <exclude reference="h0M-6m-Qwr"/>
+                                <exclude reference="hGd-S6-k8r"/>
+                                <exclude reference="tC3-lr-YgY"/>
+                                <exclude reference="NII-uS-wJa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="scroll" destination="5O2-7D-2SC" id="aNV-9C-FNr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="297"/>
+        </scene>
+    </scenes>
+</document>
